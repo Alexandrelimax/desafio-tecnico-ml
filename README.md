@@ -1,4 +1,4 @@
-# 🎓 Student Performance — Desafio Técnico de Machine Learning
+# Student Performance — Desafio Técnico de Machine Learning
 
 Este repositório contém a solução para um **desafio técnico de Machine Learning**, cujo objetivo é
 **analisar fatores associados ao desempenho escolar** e construir um **modelo baseline de classificação**
@@ -12,7 +12,7 @@ O projeto foi desenvolvido com foco em:
 
 ---
 
-## 📊 Dataset
+## 1. Dataset
 
 - Fonte: **Kaggle**
 - Dataset: *Student Performance Dataset*
@@ -30,7 +30,7 @@ demográficas, socioeconômicas e educacionais de estudantes do ensino médio em
 
 ---
 
-## 🎯 Objetivo do projeto
+## 2. Objetivo do projeto
 
 1. **Explorar e entender os dados** por meio de análise exploratória e visualizações (storytelling).
 2. **Definir um problema de Machine Learning claro e interpretável**.
@@ -39,7 +39,7 @@ demográficas, socioeconômicas e educacionais de estudantes do ensino médio em
 
 ---
 
-## 🧠 Definição do problema de Machine Learning
+## 3. Definição do problema de Machine Learning
 
 - Tipo: **Classificação binária**
 - Target criado:
@@ -51,7 +51,7 @@ para evitar **Data Leakage** (vazamento de informação).
 
 ---
 
-## 📁 Estrutura do repositório
+## 4. Estrutura do repositório
 
 ```text
 DESAFIO_TECNICO_ML/
@@ -70,7 +70,7 @@ DESAFIO_TECNICO_ML/
 ```
 ---
 
-## 8. Próximos passos - Melhorias do modelo
+## 5. Próximos passos - Melhorias do modelo
 
 Possíveis extensões naturais deste trabalho incluem:
 - engenharia de features avançada
@@ -81,7 +81,7 @@ Possíveis extensões naturais deste trabalho incluem:
 
 ---
 
-## 9. Próximos passos — Ciclo de Vida do Modelo e MLOps (Visão GCP)
+## 6. Próximos passos — Ciclo de Vida do Modelo e MLOps (Visão GCP)
 
 Além das evoluções analíticas e de modelagem, um próximo passo natural
 para este projeto é a estruturação do **ciclo de vida completo do modelo**
@@ -93,7 +93,7 @@ Google Cloud Platform (GCP).
 
 ---
 
-### 9.1 Orquestração e pipelines de treinamento
+### 6.1 Orquestração e pipelines de treinamento
 
 A etapa de treinamento e re-treinamento do modelo pode ser orquestrada
 por pipelines automatizados, de acordo com a complexidade do cenário.
@@ -122,7 +122,7 @@ A escolha entre essas abordagens depende do equilíbrio entre
 
 ---
 
-### 9.2 Armazenamento e processamento de dados
+### 6.2 Armazenamento e processamento de dados
 
 Considerando o volume e a natureza dos dados, o
 **BigQuery** se apresenta como um candidato natural para:
@@ -139,7 +139,7 @@ Nesse contexto:
 
 ---
 
-### 9.3 Feature engineering e governança de transformações
+### 6.3 Feature engineering e governança de transformações
 
 Para cenários em que o **BigQuery** seja o principal motor analítico,
 o **Dataform** surge como ferramenta adequada para:
@@ -156,7 +156,7 @@ Nesse modelo:
 
 ---
 
-### 9.4 Estratégias de modelagem: BigQuery ML vs modelos customizados
+### 6.4 Estratégias de modelagem: BigQuery ML vs modelos customizados
 
 Duas estratégias distintas podem ser consideradas:
 
@@ -181,7 +181,7 @@ A escolha depende do grau de customização e controle desejado.
 
 ---
 
-### 9.5 CI/CD e versionamento de artefatos
+### 6.5 CI/CD e versionamento de artefatos
 
 Para modelos customizados, o ciclo de CI/CD pode ser estruturado com:
 
@@ -203,7 +203,7 @@ Essa abordagem permite:
 
 ---
 
-### 9.6 Monitoramento do modelo em produção
+### 6.6 Monitoramento do modelo em produção
 
 Após o deploy, o modelo deve ser monitorado continuamente para garantir
 qualidade e confiabilidade.
@@ -228,7 +228,7 @@ No GCP, essas capacidades podem ser implementadas via:
 
 ---
 
-### 9.7 Considerações finais sobre MLOps
+### 6.7 Considerações finais sobre MLOps
 
 A incorporação de práticas de MLOps transforma este projeto de um
 exercício analítico em um **sistema de ML sustentável**, capaz de:
